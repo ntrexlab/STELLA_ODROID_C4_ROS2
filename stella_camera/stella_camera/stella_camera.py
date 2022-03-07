@@ -22,7 +22,6 @@ class Camera(Node):
       
     self.timer = self.create_timer(timer_period, self.timer_callback)
     
-    os.system('sudo modprobe bcm2835-v4l2')
     self.cap = cv2.VideoCapture(0)
     self.cap.set(cv2.CAP_PROP_FRAME_WIDTH,320)
     self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT,240)
