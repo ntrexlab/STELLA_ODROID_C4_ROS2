@@ -35,7 +35,7 @@ ament_target_dependencies(stella_ahrs_node
   "tf2"
 )
 
-target_link_libraries(${PROJECT_NAME}_node ${CMAKE_CURRENT_SOURCE_DIR}/lib/jetson_ahrs.a)
+target_link_libraries(${PROJECT_NAME}_node ${CMAKE_CURRENT_SOURCE_DIR}/lib/c4_ahrs.a)
 
 ################################################################################
 # Install
