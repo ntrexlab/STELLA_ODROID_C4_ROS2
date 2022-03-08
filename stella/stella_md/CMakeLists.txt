@@ -43,7 +43,7 @@ ament_target_dependencies(${PROJECT_NAME}_node
   "tf2_ros"
   "tf2"
 )
-target_link_libraries(${PROJECT_NAME}_node ${CMAKE_CURRENT_SOURCE_DIR}/lib/jetson_md.a)
+target_link_libraries(${PROJECT_NAME}_node ${CMAKE_CURRENT_SOURCE_DIR}/lib/c4_md.a)
 
 ################################################################################
 # Install
